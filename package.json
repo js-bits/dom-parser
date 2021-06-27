@@ -1,6 +1,6 @@
 {
   "name": "@js-bits/dom-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cross-environment (nodejs/web) DOM parser for XML and HTML",
   "keywords": [
     "javascript",
