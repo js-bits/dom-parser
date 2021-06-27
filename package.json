@@ -1,10 +1,11 @@
 {
-  "name": "@js-bits/xml-parser",
+  "name": "@js-bits/dom-parser",
   "version": "0.0.1",
-  "description": "Cross-environment (nodejs/web) XML parser",
+  "description": "Cross-environment (nodejs/web) DOM parser for XML and HTML",
   "keywords": [
     "javascript",
     "xml",
+    "html",
     "dom",
     "parser",
     "web",
@@ -25,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/js-bits/xml-parser"
+    "url": "https://github.com/js-bits/dom-parser"
   },
   "author": "https://github.com/apolo-gh",
   "license": "ISC",

@@ -1,2 +1,1 @@
-# xml-parser
-Cross-environment (nodejs/web) XML parser
+# Cross-environment (nodejs/web) DOM parser for XML and HTML
