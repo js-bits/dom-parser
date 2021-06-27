@@ -14,6 +14,12 @@
   "type": "module",
   "module": "./index.js",
   "exports": "./index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose",
+    "test-coverage": "yarn test --coverage",
+    "test-watch": "yarn test --watch",
+    "lint": "eslint '**/*.{js,jsx}'"
+  },
   "browser": {
     "jsdom": false
   },
@@ -35,11 +41,20 @@
     "@types/jest": "^26.0.22",
     "jest": "^26.6.3"
   },
+  "jest": {
+    "projects": [
+      {
+        "displayName": "node",
+        "testEnvironment": "node"
+      },
+      {
+        "displayName": "jsdom",
+        "testEnvironment": "jsdom"
+      }
+    ]
+  },
   "prettier": "@js-bits/formalinter/.prettierrc.json",
   "eslintConfig": {
     "extends": "@js-bits/eslint-config/.eslintrc.json"
-  },
-  "scripts": {
-    "lint": "eslint '**/*.{js,jsx}'"
   }
 }
