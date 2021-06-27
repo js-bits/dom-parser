@@ -1,6 +1,6 @@
 # Cross-environment (nodejs/web) DOM parser for XML and HTML
 
-This package uses built-in `DOMParser` in a browser and `jsdom` module in a Node.js environment end exports `parse` function.
+This package uses built-in [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser) in a browser and [jsdom](https://www.npmjs.com/package/jsdom) module in a Node.js environment end exports `parse` function.
 
 ## Installation
 
@@ -42,5 +42,5 @@ Optionally accepts second `mimeType` parameter (`"text/xml"` by default).
 
 ## Notes
 
-- [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
-- [jsdom](https://www.npmjs.com/package/jsdom)
+- Minimal size (bytes) in a browser since [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser) is natively supported. Does not include any polyfills.
+- Requires [ECMAScript modules](https://nodejs.org/api/esm.html) to be enabled in Node.js environment. Otherwise, compile into a CommonJS module.
