@@ -1,6 +1,6 @@
 # Cross-environment (nodejs/web) DOM parser for XML and HTML
 
-This package uses built-in [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser) in a browser and [jsdom](https://www.npmjs.com/package/jsdom) module in a Node.js environment end exports `parse` function.
+This package uses built-in [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser) in a browser and [jsdom](https://www.npmjs.com/package/jsdom) module in a Node.js environment and exports `parse` function.
 
 ## Installation
 
