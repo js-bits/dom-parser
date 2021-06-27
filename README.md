@@ -38,7 +38,7 @@ const doc = parse(xml); // Document
 console.log(doc.querySelectorAll('heading')); // NodeList
 ```
 
-Optionally accept second `mimeType` parameter (`"text/xml"` by default).
+Optionally accepts second `mimeType` parameter (`"text/xml"` by default).
 
 ## Notes
 
