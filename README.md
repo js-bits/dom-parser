@@ -40,6 +40,16 @@ console.log(doc.querySelectorAll('heading')); // NodeList
 
 Optionally accepts second `mimeType` parameter (`"text/xml"` by default).
 
+```javascript
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+`;
+
+const doc = parse(svg, 'image/svg+xml'); // Document
+console.log(doc.querySelectorAll('circle')); // NodeList
+```
+
 ## Notes
 
 - Minimal size (bytes) in a browser since [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser) is natively supported. Does not include any polyfills.
