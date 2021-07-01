@@ -1,9 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { jest } from '@jest/globals';
-import { cyan } from '@js-bits/log-in-color';
 import parse from './index.js';
-
-const env = cyan(`[${typeof window === 'undefined' ? 'node' : 'jsdom'}]`);
 
 const xml = `<?xml version="1.0" encoding="utf-8"?>
 <note>
@@ -19,7 +16,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" vi
 </svg>
 `;
 
-describe(`DOMParser: ${env}`, () => {
+describe(`DOMParser`, () => {
   test('parse xml', () => {
     const doc = parse(xml);
     const headings = doc.querySelectorAll('heading');
