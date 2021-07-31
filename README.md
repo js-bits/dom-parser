@@ -22,6 +22,12 @@ Import where you need it:
 import parse from '@js-bits/dom-parser';
 ```
 
+or require for CommonJS:
+
+```javascript
+const parse = require('@js-bits/dom-parser');
+```
+
 ## How to use
 
 ```javascript
@@ -53,4 +59,3 @@ console.log(doc.querySelectorAll('circle')); // NodeList
 ## Notes
 
 - Minimal size (bytes) in a browser since [DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser) is natively supported. Does not include any polyfills.
-- Requires [ECMAScript modules](https://nodejs.org/api/esm.html) to be enabled in Node.js environment. Otherwise, compile into a CommonJS module.

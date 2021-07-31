@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { jest } from '@jest/globals';
 import parse from './index.js';
+// const parse = require('./dist/index.cjs');
 
 const xml = `<?xml version="1.0" encoding="utf-8"?>
 <note>
