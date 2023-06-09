@@ -17,7 +17,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" vi
 </svg>
 `;
 
-describe(`DOMParser`, () => {
+describe('DOMParser', () => {
   test('parse xml', () => {
     const doc = parse(xml);
     const headings = doc.querySelectorAll('heading');
