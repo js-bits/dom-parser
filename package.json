@@ -43,7 +43,7 @@
     "node": ">=12"
   },
   "dependencies": {
-    "jsdom": "^16.6.0"
+    "jsdom": "^22.1.0"
   },
   "devDependencies": {
     "@js-bits/formalinter": "^1.0.3",
@@ -54,18 +54,6 @@
     "jest-environment-jsdom": "^29.5.0",
     "rimraf": "^5.0.1",
     "rollup": "^3.24.0"
-  },
-  "jest": {
-    "projects": [
-      {
-        "displayName": "node",
-        "testEnvironment": "node"
-      },
-      {
-        "displayName": "jsdom",
-        "testEnvironment": "jsdom"
-      }
-    ]
   },
   "prettier": "@js-bits/formalinter/.prettierrc.json",
   "eslintConfig": {
