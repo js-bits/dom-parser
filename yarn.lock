@@ -703,10 +703,10 @@
     prettier "^2.8.8"
     typescript "^4.8.4"
 
-"@js-bits/log-in-color@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@js-bits/log-in-color/-/log-in-color-0.0.2.tgz#f5e370d5978d7977dbef375b2f66f18b4e564a32"
-  integrity sha512-ojDTAqbgW8m24GXUIIKvRUXfusZqzKF4ANIWJMSmvTJB+V8dgbtE3mytJh6oBGhu8HZ1nCJFeNjKQzNV6rAx4g==
+"@js-bits/log-in-color@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@js-bits/log-in-color/-/log-in-color-1.0.1.tgz#b3e19e4b401f881e1b448b1aa15fffce5cffc0e8"
+  integrity sha512-sHYPPn9F5/hlMz/rTX/J2pOketrwSbXfmo6c2WjcXRwr5juNOoFt9XbwM+WOtgQ/3OzJXOCatn96ZvvgMH3pWg==
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
