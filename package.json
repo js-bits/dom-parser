@@ -4,6 +4,7 @@
   "description": "Cross-environment (nodejs/web) DOM parser for XML and HTML",
   "keywords": [
     "javascript",
+    "typescript",
     "xml",
     "html",
     "dom",
@@ -27,7 +28,7 @@
     "test-cjs": "jest --verbose",
     "test-coverage": "yarn test --coverage",
     "test-watch": "yarn test --watch",
-    "lint": "eslint '**/*.{js,jsx}'",
+    "lint": "tsc --noEmit && eslint '**/*.{js,jsx}'",
     "prepare": "husky install"
   },
   "browser": {
