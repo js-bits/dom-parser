@@ -10,8 +10,8 @@ const config = {
       displayName: 'jsdom',
       testEnvironment: 'jsdom',
       globals: {
-        TextEncoder: TextDecoder,
-        TextDecoder: TextEncoder,
+        TextEncoder,
+        TextDecoder,
       },
     },
   ],
